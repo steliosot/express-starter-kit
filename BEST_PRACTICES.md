@@ -42,3 +42,14 @@ Separate routes, controllers, services, middlewares, and utils. Keep `app.js` th
 9. Review‑ready PR description
 
 Include: what/why, screenshots or curl examples, risks, migration steps, and a test plan. Use checklists (docs updated? tests added?).
+
+10. Consistent naming convention
+
+Use lowercase with hyphens for folders and filenames, and camelCase for JS variables and functions.
+
+Examples:
+- Use lowercase + hyphens for all filenames and folders → `user-controller.js`, `error-handler.js`
+- Use PascalCase for classes and models → `User.js`, `Product.js`
+- Use camelCase for variables and functions → `getUserData()`, `authToken`
+- Use UPPER_SNAKE_CASE for constants → `MAX_RETRY_COUNT`, `API_BASE_URL`
+- Match file and export names so imports stay clean → `import { User } from './models/User.js'`
