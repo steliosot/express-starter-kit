@@ -1,0 +1,30 @@
+{
+  "name": "express-starter-kit",
+  "version": "1.0.0",
+  "description": "A minimal Node.js + Express boilerplate for quick REST API or web server setup.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint .",
+    "prepare": "echo \"Ready\""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
