@@ -89,4 +89,4 @@ export const sayHello = (req, res) => {
 ---
 
 ## 🪄 License
-MIT License © 2025 Your Name
+MIT License © 2025 Stelios Sotiriadis
